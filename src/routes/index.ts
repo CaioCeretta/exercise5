@@ -1,9 +1,8 @@
 import { Router } from 'express';
-
-import transactionsRouter from './transactions.routes';
+import transactionRouter from './transaction.routes';
 
 const routes = Router();
 
-routes.use('/transactions', transactionsRouter);
+routes.use('/transactions', transactionRouter);
 
 export default routes;
